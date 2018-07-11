@@ -1,0 +1,42 @@
+.sh-layout {
+    padding: 20px;
+    background-color: #f6fafa;
+    color: #444444;
+    font-size: 14px;
+
+    .sh-layout-content {
+        border: solid 1px #e3e8ea;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    .sh-layout-header {
+        height: 56px;
+        border-bottom: 1px solid #e3e8ea;
+    }
+
+    .sh-layout-title {
+        font-size: 20px;
+        line-height: 36px;
+        padding-right: 8px;
+        font-weight: bold;
+    }
+
+    .sh-layout-clearfix::after, .sh-layout-clearfix::before {
+        content: ' ';
+        display: table;
+    }
+
+    .sh-layout-clearfix::after {
+        clear: both;
+    }
+
+    .sh-layout-subtitle {
+        margin: 20px 0;
+        padding-left: 15px;
+        border-left: 4px solid #41a259;
+        font-size: 16px;
+        color: #444;
+        width: 500px;
+    }
+}

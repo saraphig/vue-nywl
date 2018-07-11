@@ -1,0 +1,91 @@
+.forget-password-bg {
+
+  .mp-header-button-group {
+    width: 100%
+  }
+
+  .empty-space {
+    margin: 50px;
+    float: right;
+  }
+
+  .forget-password-img {
+    width: 88px;
+    height: 88px;
+    background-size: cover;
+    border: none;
+    margin-top: 80px;
+  }
+
+  .forget-password-step1-text {
+    font-size: 24px;
+    font-weight 600;
+    margin-top: 18px;
+    margin-bottom: 40px;
+  }
+
+  .forget-password-form {
+    width: 50%;
+    margin: auto;
+  }
+
+  .form-group {
+    margin-top: 18px;
+    position: relative;
+  }
+
+  .form-group__message {
+    font-size: 12px;
+    line-height: 1;
+    display: none;
+    margin: auto;
+    position: absolute;
+  }
+
+  .form-group--error+.form-group__message {
+    margin: 2px 0 0 90px;
+    display: block;
+    color: #ff4955;
+    font-size: 12px;
+    text-align: left;
+    width: 22.5%;
+    animation: mylogo 1s linear 0s infinite alternate;
+  }
+
+  .form-group--error .form__label, .form-group--error .form__label--inline {
+    color: #ff4955;
+  }
+
+  .forget-password-step1-tip {
+    margin-top: 17px;
+    font-size: 12px;
+    color: #aaa;
+  }
+
+  .next-step-button {
+    margin-top: 60px;
+    min-width: 140px;
+    width: 14%;
+    min-height: 36px;
+    border: 1px #fff;
+    border-radius: 6px;
+    background-image: linear-gradient(90deg,
+    #0098ff 0%,
+    #1868fb 100%),
+      linear-gradient(
+        #f0f0f0,
+        #f0f0f0);
+    background-blend-mode: normal, normal;
+    color: white;
+    font-size: 14px;
+  }
+
+  .next-step-button:focus{
+    outline: none;
+  }
+
+  .next-step-button:active {
+    background: rgba(0, 110, 255, 0.5)
+  }
+}
+

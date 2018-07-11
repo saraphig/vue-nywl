@@ -1,0 +1,32 @@
+.vue-tree-list {
+    list-style-type: none;
+    padding-left: 30px;
+    color: #444444;
+    font-size: 14px;}
+.vue-tree-list .item-wrapper {
+    padding: 0px;
+    margin-bottom: 19px;
+    height: 100%;
+    line-height: 100%;
+}
+.vue-tree-list .item-bold {
+   
+   color: #444444;
+    font-size: 14px;
+}
+.vue-tree-list .item-toggle,
+.vue-tree-list .item-checkbox,
+.vue-tree-list .item-label {
+  cursor: pointer;
+  
+}
+.item-checkbox {
+    
+    
+}
+.vue-tree-list .item-toggle {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    overflow: hidden
+}

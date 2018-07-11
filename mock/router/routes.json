@@ -1,0 +1,7 @@
+{
+  "/home/:id/test": "/home/:id",
+  "/search/:id":  "/search/:id",
+  "/monitor/:id":  "/monitor/:id",
+  "/subset/:id":"/subset/:id",
+  "/table/:id":"/table/:id"
+}

@@ -1,0 +1,159 @@
+.system {
+  padding: 20px 60px 0;
+  margin: auto;
+
+  .table-title {
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    font-size: 30px;
+    line-height:50px;
+    height 50px;
+  }
+    .mt20{
+      margin-top:20px;
+    }
+  .system-add-button {
+    float: right;
+    position: relative;
+    z-index: 9;
+    width: 120px;
+    height 50px
+    font-family: SourceHanSansCN-Bold;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius 4px
+    border: 1px #fff;
+    min-height: 36px;
+    background-image: linear-gradient(90deg,
+    #0098ff 0%,
+    #1868fb 100%),
+      linear-gradient(
+        #f0f0f0,
+        #f0f0f0);
+    background-blend-mode: normal, normal;
+    color: #fff;
+    cursor:pointer;
+  }
+
+  .add-button:focus{
+    outline: none;
+  }
+
+  .add-button:active {
+    background: rgba(0, 110, 255, 0.5)
+  }
+
+
+  .append-button {
+    float: right;
+    position: relative;
+    z-index: 9;
+    width: 140px;
+    margin: 30px 0 0 0;
+    border: 1px #fff;
+    min-height: 36px;
+    border-radius: 6px;
+    background-image: linear-gradient(90deg,
+    #0098ff 0%,
+    #1868fb 100%),
+      linear-gradient(
+        #f0f0f0,
+        #f0f0f0);
+    background-blend-mode: normal, normal;
+    color: #fff;
+    font-size: 14px;
+    cursor:pointer;
+  }
+
+  .append-button:focus{
+    outline: none;
+  }
+
+  .append-button:active {
+    background: rgba(0, 110, 255, 0.5)
+  }
+
+  .agricultural-type-form {
+    width: 100%
+    margin: auto;
+
+    .agricultural-type-form-group {
+      margin-top: 18px;
+      position: relative;
+
+      .icon-touxiang {
+        z-index: 2;
+        position: absolute;
+        left: -15px;
+        top: 1px;
+      }
+
+      .icon-touxiang:before {
+        position: relative;
+        left: 24px;
+        top: -11px;
+        z-index: 3;
+      }
+
+      .icon-touxiang:after {
+        content: '';
+        display: inline-block;
+        background: #f2f2f2;
+        width: 32px;
+        height 34px
+        border-right: 1px #b0b1b4 solid;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+
+      .form__input {
+        font-size: 15px;
+        color: #374853;
+        line-height: 20px;
+        min-height: 36px;
+        position: relative;
+        border: 1px solid #b0b1b4;
+        border-radius: 6px;
+        background: #fff;
+        padding: 5px 5px 5px 40px;
+        width: 100%;
+        transition: border .5s ease;
+        box-sizing: border-box;
+        outline: none;
+      }
+
+      input.form__input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #b0b1b4;
+      }
+
+      .form__input:disabled{
+        background-color: #f5f5f5;
+      }
+    }
+
+
+    .agricultural-type-group--error+.agricultural-type-group__message {
+      margin: 2px;
+      display: block;
+      color: #ff4955;
+      font-size: 12px;
+      text-align: left;
+    }
+    .agricultural-type-group__message{
+      display :none
+      position:absolute
+    }
+
+  }
+}
+
+.box
+  margin: 10px auto;
+  min-height: auto;
+
+

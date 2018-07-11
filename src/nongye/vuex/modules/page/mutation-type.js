@@ -1,0 +1,1 @@
+export const CHANGE_PAGE_INFO = 'CHANGE_PAGE_INFO'

@@ -1,0 +1,2 @@
+export const SET_AREAS_LIST = 'SET_AREAS_LIST'
+export const SET_DEVICES_LIST = 'SET_DEVICES_LIST'
